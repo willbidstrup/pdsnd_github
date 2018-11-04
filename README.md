@@ -14,7 +14,11 @@ that has been selected. It also offers the user a chance to review the raw data
 in increments of five lines at a time.
 
 ### Files used
-Include the files used
+*NOTE: the .csv are excluded via .gitignore*
+bikeshare.py
+chicago.csv
+washington.csv
+new_your_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
