@@ -191,7 +191,7 @@ def user_stats(df):
 
 
 
-def raw_lines(df):
+def raw_data(df):
     """Displays five lines of data if the user specifies that they would like to."""
 
     def is_valid(display):
@@ -240,7 +240,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_lines(df)
+        raw_data(df)
 
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
