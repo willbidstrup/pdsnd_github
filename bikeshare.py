@@ -50,7 +50,7 @@ def get_filters():
     return city, month, day
 
 
-def load_data(city, month, day):
+def import_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -191,7 +191,7 @@ def user_stats(df):
 
 
 
-def raw_lines(df):
+def raw_data(df):
     """Displays five lines of data if the user specifies that they would like to."""
 
     def is_valid(display):
@@ -236,13 +236,13 @@ def main():
      users interactive session."""
     while True:
         city, month, day = get_filters()
-        df = load_data(city, month, day)
+        df = import_data(city, month, day)
 
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_lines(df)
+        raw_data(df)
 
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
