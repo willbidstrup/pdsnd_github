@@ -21,4 +21,7 @@ washington.csv
 new_your_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Udacity Programming For Data Science Python track practice questions
+- Learn Python The Hard Way
+- The Python 3 Standard Library by Example
+- The display data function was inspired by https://github.com/xhlow/udacity-bikeshare-project/blob/master/bikeshare.py - thanks!
