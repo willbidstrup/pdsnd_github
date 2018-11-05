@@ -232,6 +232,8 @@ def raw_lines(df):
                 break
 
 def main():
+    """This is the main program which will run if this script is being run in a
+     users interactive session."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
